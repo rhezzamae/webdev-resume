@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rheeza Mae Resume</title>
+</head>
+<style>
+    *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: montserrat;
+}
+body{
+    background: #575756;
+}
+.container{
+    background: rgb(173, 173, 169);
+    max-width: 1200px;
+    margin: 60px auto;
+    height: 1650px;
+    padding: 20px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+}
+.header{
+    text-align: center;
+}
+.header h1{
+    margin-bottom: 10px;
+}
+.header h3{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+}
+.img-area{
+    width: 80px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 25px auto;
+    border: 15px groove rgb(143, 143, 137);
+}
+.img-area{
+    width: 20%;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.left{
+    flex: 1;
+    padding: 30px;
+}
+.left p{
+    line-height: 2;
+}
+.left ul li{
+    line-height: 2;
+}
+h2{
+    background: #757574;
+    padding: 15px;
+    color: #fff;
+    margin: 30px 0;
+    font-size: 20px;
+    border-radius: 0 50px;
+}
+.right{
+    flex: 1;
+    padding: 30px;
+}
+.right h3{
+    margin-top: 15px;
+}
+.right p{
+    line-height: 2.9;
+}
+.right ul li{
+    line-height: 2;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .container{
+        width: 95%;
+        height: auto;
+    }
+    h2{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .main{
+        flex-direction: column;
+    }
+    .left,
+    .right{
+        flex: none;
+        width: 100%;
+    }
+    .container{
+        width: 95;
+        height: auto;
+    }
+    h2{
+        font: 15px;
+    }
+}
+
+</style>
+<body>
+    <div class="container">
+        <div class = "header">
+            <div class ="img-area">
+                <img src="mae.jpg" alt="Profile Photo">
+            </div>
+            <h1>Rheeza Mae Fernandez</h1>
+            <h3>IT Practitioner</h3>
+        </div>
+
+        <div class="main">
+            <div class="left">
+                <h2>Personal Information</h2>
+                <p><strong>Name : </strong> Rheeza Mae Fernandez</p>
+                <p><strong>Age : </strong>19</p>
+                <p><strong>Email : </strong><a href="mailto: rhezzamaef@gmail.com">rhezzamaef@gmail.com</a></p>
+                <p><strong>Phone : </strong> 09071737654</p>
+                <p><strong>Facebook : </strong><a href="https://www.facebook.com/profile.php?id=100088746926398">Mae Fernandez</a></p>
+                <h2>Technical Skills</h2>
+                <ul>
+                    <li>HTML/CSS</li>
+                    <li>C++</li>
+                    <li>JAVA</li>
+                    <li>PYTHON</li>
+                </ul>
+                <h2>Soft SKills</h2>
+                <ul>
+                    <li>Communication</li>
+                    <li>Teamwork</li>
+                    <li>Problem-solving</li>
+                    <li>Adaptive</li>
+                </ul>
+                <h2>Education</h2>
+                <h3>Elementary Year</h3>
+                <p>Buntawan Elementary School, 2011 - 2016</p><br>
+                <h3>Junior Highschool</h3>
+                <p>Oroquieta City National High School, 2016 - 2019</p><br>
+                <h3>TVL - ICT SHS Strand</h3>
+                <p>Southeast Asian Institute of Technology, 2019-2021</p><br>
+                <h3>BS Information Technology</h3>
+                <p>University of Science & Technologically of Southern Philippines - Oroquieta, 2021-present</p>
+            </div>
+            <div class="right">
+                <h2>Work experiences</h2>
+                <h3>Brgy Buntawan Office</h3>
+                <p><strong>Position: </strong>SK Councilor</p>
+                <p><strong>Duration: </strong>Yr. 2023 - present</p>
+                <ul>
+                    <li>As a current SK Councilor at Brgy. Buntawan, I have actively engaged in community leadership and advocacy, representing the youth within our barangay. Collaborating with fellow council members and barangay officials, I have contributed to the development and implementation of various youth-oriented programs and initiatives aimed at addressing the needs and concerns of our constituents. </li>
+                    <li> Through organizing events, workshops, and community outreach activities, I have fostered unity and empowerment among the youth, promoting their participation in civic affairs and decision-making processes.</li>
+                    <li>Additionally, I have effectively communicated the voices and aspirations of the youth to the barangay council, advocating for policies and projects that promote their welfare and development. Serving as an SK Councilor has not only honed my leadership and communication skills but also deepened my commitment to serving the community and advocating for positive change.</li>
+                </ul><br>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
